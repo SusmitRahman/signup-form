@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>Data Vaidation</title>
+</head>
+<body>
+
+    <div class="style">
+        <form action="success.html" onsubmit="return validation()">
+            
+            <div class="fbody">
+           
+                    <p class="ca">Create an account</p>
+                <p>
+                    <input type="text" name="firstname" id="firstname" value="" placeholder="First Name" class="box"> <span></span>
+                </p>
+
+                <p>
+                    <input type="text" name="lastname" id="lastname" value="" placeholder="Surname" class="box">
+                </p>
+
+                <p>
+                    <input type="email" name="email" id="email" value="" placeholder="Email" class="box">
+                </p>
+
+                <p>
+                    <input type="number" name="phone" id="phone" value="" placeholder="Phone Number" class="box">
+                </p>
+
+                <p>
+                    <input type="password" name="password" id="password" value="" placeholder="Password" class="box">
+                </p>
+                
+                <p>
+                    <p class="bday">Birthday</p>
+
+                   <select name="" id="day">
+                       <option value="Day" >Day</option>
+                   </select>
+
+                   <select name="" id="month">
+                        <option value="Month">Month</option>
+                   </select>
+
+                   <select name="" id="years">
+                       <option value="Year">Year</option>
+                   </select>
+                </p>
+
+
+                
+                <p>
+                    <input type="submit" value="Sign Up" placeholder="" class="button">
+                </p>
+            
+            </div>
+        </form>
+    </div>
+    
+
+    <script src="script.js"></script>    
+</body>
+</html>

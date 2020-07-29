@@ -1,0 +1,56 @@
+body{
+    margin: 0 auto;
+    background-image: url("img/background.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.style{
+    height: 558px;
+    width: 400px;
+    margin-left: 265px;
+    margin-top: 70px;
+    padding: 5px 30px 30px;
+    border: solid #292428 50px;
+    opacity: 0.7;
+    border-radius:50px;
+    background-color: hsl(300, 2%, 22%) ;
+
+}
+
+::placeholder{
+    padding: 10px;
+}
+
+.fbody{
+    padding: 5%;
+}
+
+.ca{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.box {
+    height: 35px;
+    width: 330px;
+    border-radius: 5px;
+    border:solid #6384a7;
+}
+
+.bday{
+    color:white;
+}
+
+.button{
+    color: white;
+    height: 30px;
+    width: 100px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #6384a7;
+    border:solid white;
+    cursor: pointer;
+}
